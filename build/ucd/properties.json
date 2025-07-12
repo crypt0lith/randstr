@@ -1,0 +1,148 @@
+[
+  "PropertyAliases",
+  "PropertyValueAliases",
+  {
+    "Blocks": {
+      "CATALOG": [
+        "Block"
+      ]
+    },
+    "DerivedCoreProperties": {
+      "BINARY": [
+        "Alphabetic",
+        "Case_Ignorable",
+        "Cased",
+        "Changes_When_Casefolded",
+        "Changes_When_Casemapped",
+        "Changes_When_Lowercased",
+        "Changes_When_Titlecased",
+        "Changes_When_Uppercased",
+        "Default_Ignorable_Code_Point",
+        "Grapheme_Base",
+        "Grapheme_Extend",
+        "Grapheme_Link",
+        "ID_Continue",
+        "ID_Start",
+        "Lowercase",
+        "Math",
+        "Uppercase",
+        "XID_Continue",
+        "XID_Start"
+      ],
+      "ENUMERATION": [
+        "Indic_Conjunct_Break"
+      ]
+    },
+    "IndicPositionalCategory": {
+      "ENUMERATION": [
+        "Indic_Positional_Category"
+      ]
+    },
+    "IndicSyllabicCategory": {
+      "ENUMERATION": [
+        "Indic_Syllabic_Category"
+      ]
+    },
+    "PropList": {
+      "BINARY": [
+        "ASCII_Hex_Digit",
+        "Bidi_Control",
+        "Dash",
+        "Deprecated",
+        "Diacritic",
+        "Extender",
+        "Hex_Digit",
+        "Hyphen",
+        "IDS_Binary_Operator",
+        "IDS_Trinary_Operator",
+        "IDS_Unary_Operator",
+        "ID_Compat_Math_Continue",
+        "ID_Compat_Math_Start",
+        "Ideographic",
+        "Join_Control",
+        "Logical_Order_Exception",
+        "Modifier_Combining_Mark",
+        "Noncharacter_Code_Point",
+        "Other_Alphabetic",
+        "Other_Default_Ignorable_Code_Point",
+        "Other_Grapheme_Extend",
+        "Other_ID_Continue",
+        "Other_ID_Start",
+        "Other_Lowercase",
+        "Other_Math",
+        "Other_Uppercase",
+        "Pattern_Syntax",
+        "Pattern_White_Space",
+        "Prepended_Concatenation_Mark",
+        "Quotation_Mark",
+        "Radical",
+        "Regional_Indicator",
+        "Sentence_Terminal",
+        "Soft_Dotted",
+        "Terminal_Punctuation",
+        "Unified_Ideograph",
+        "Variation_Selector",
+        "White_Space"
+      ]
+    },
+    "Scripts": {
+      "CATALOG": [
+        "Script"
+      ]
+    },
+    "auxiliary/GraphemeBreakProperty": {
+      "ENUMERATION": [
+        "Grapheme_Cluster_Break"
+      ]
+    },
+    "auxiliary/SentenceBreakProperty": {
+      "ENUMERATION": [
+        "Sentence_Break"
+      ]
+    },
+    "auxiliary/WordBreakProperty": {
+      "ENUMERATION": [
+        "Word_Break"
+      ]
+    },
+    "emoji/emoji-data": {
+      "BINARY": [
+        "Emoji",
+        "Emoji_Component",
+        "Emoji_Modifier_Base",
+        "Emoji_Presentation",
+        "Extended_Pictographic"
+      ]
+    },
+    "extracted/DerivedBinaryProperties": {
+      "BINARY": [
+        "Bidi_Mirrored"
+      ]
+    },
+    "extracted/DerivedCombiningClass": {
+      "NUMERIC": [
+        "Canonical_Combining_Class"
+      ]
+    },
+    "extracted/DerivedEastAsianWidth": {
+      "NONE": [
+        "East_Asian_Width"
+      ]
+    },
+    "extracted/DerivedGeneralCategory": {
+      "NONE": [
+        "General_Category"
+      ]
+    },
+    "extracted/DerivedJoiningGroup": {
+      "NONE": [
+        "Joining_Group"
+      ]
+    },
+    "extracted/DerivedLineBreak": {
+      "NONE": [
+        "Line_Break"
+      ]
+    }
+  }
+]

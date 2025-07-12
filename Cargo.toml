@@ -1,0 +1,9 @@
+[package]
+name = "randstr"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+phf = { version = "0.10", features = ["macros"] }
+rand = "0.9.1"
+regex-syntax = "0.8.8"
