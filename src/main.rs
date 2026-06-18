@@ -475,11 +475,12 @@ fn ucd_ranges_from_name(name: &str) -> Result<CharRanges<'static>, String> {
 }
 
 fn main() {
-    let mut args = std::env::args().skip(1);
-    let pattern = match args.next() {
-        Some(p) => p,
-        None => {
-            eprintln!("usage: randstr <regex>");
+    let mut argv = std::env::args();
+    let prog = argv.next().unwrap();
+    let pattern = match (argv.next(), argv.next()) {
+        (Some(p), None) => p,
+        _ => {
+            eprintln!("usage: {prog} REGEX");
             std::process::exit(1);
         }
     };
