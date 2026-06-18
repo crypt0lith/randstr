@@ -81,6 +81,9 @@ impl RandomStringVisitor {
     fn sample_char_from_ranges(&mut self, ranges: CharRanges) -> Result<char, String> {
         let range_len: fn(&(char, char)) -> u32 = |&(lo, hi)| (hi as u32) - (lo as u32) + 1;
         let total = ranges.iter().map(range_len).sum();
+        if total == 0 {
+            return Err("empty char range".to_string());
+        }
         let mut idx = self.rng.random_range(0..total);
         for r in ranges {
             let len = range_len(r);
