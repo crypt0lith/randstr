@@ -28,3 +28,13 @@ valid email: ZllZU-HbtUYbpu@Y45HUuGTKzq2gx.mWvsfmNxRhwjyzPEgZxB
 $ randstr '[\p{Tibetan}&&\p{L}]{20}'
 ཆཌྷༀདཫཋབྷཅཤཅམཐཬཙཎཇྌཨཛཡ
 ```
+
+## Installation
+
+Install and compile the binary using `cargo`:
+
+```sh
+cargo install --git https://github.com/crypt0lith/randstr
+```
+
+Or download a precompiled binary of the [latest release](https://github.com/crypt0lith/randstr/releases/latest).
